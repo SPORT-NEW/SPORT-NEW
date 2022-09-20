@@ -4,8 +4,8 @@
   "description": "sport news",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon server/index.js",
-    "init": " node server/database/seed.js"
+    "start": "nodemon Server/index.js",
+    "init": " node Server/database/seed.js"
   },
   "repository": {
     "type": "git"
@@ -20,11 +20,13 @@
     "bootstrap": "^5.2.1",
     "cloudinary": "^1.32.0",
     "cors": "^2.8.5",
+    "dotenv": "^16.0.2",
     "express": "^4.17.1",
     "jquery": "^3.6.0",
     "jsonwebtoken": "^8.5.1",
     "mysql2": "^2.3.3",
-    "sequelize": "^6.15.0"
+    "pg": "^8.8.0",
+    "sequelize": "^6.23.0"
   },
   "devDependencies": {
     "nodemon": "^2.0.7"
