@@ -17,12 +17,14 @@ module.exports = {
     
     }
   },
+  //getone send empty array
   getPostsByCategories: async (req, res) => {
     try {
       const posts = await db.Post.findAll({
-        where:{theme : req.params.id},
+        where:{id: req.params.id},
         order: [["createdAt", "DESC"]],
       });
+      console.log(req.params),
       res.status(200).json(posts);
       return;
     } catch (error) {

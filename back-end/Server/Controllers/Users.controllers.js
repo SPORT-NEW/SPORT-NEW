@@ -52,6 +52,8 @@ module.exports = {
       res.status(401).send(err)
     }
   },
+
+  // log out function 
    logout : (req,res)=>{
     try {
      res.clearCookie("auth");
