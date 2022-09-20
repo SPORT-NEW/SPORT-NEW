@@ -4,8 +4,8 @@
   "description": "sport news",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon Server/index.js",
-    "init": " node Server/database/seed.js"
+    "start": "nodemon server/index.js",
+    "init": " node server/database/seed.js"
   },
   "repository": {
     "type": "git"
