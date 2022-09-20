@@ -52,4 +52,16 @@ module.exports = {
       res.status(401).send(err)
     }
   },
+  // log out function 
+   logout : (req,res)=>{
+    try {
+     res.clearCookie("auth");
+     res.status(200).json("logout success");
+     
+    } catch (error) {
+     console.log(error);
+     res.status(400).json("error");
+    }
+   }
+  
 };
