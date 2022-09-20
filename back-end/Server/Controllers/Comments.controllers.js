@@ -30,7 +30,7 @@ module.exports = {
   //method to get one admin by picture's link.
   deleteComment: async (req, res) => {
     let id = req.params.id;
-   
+
     try {
       const deleteComment = await db.Comment.destroy({ where: { id: req.params.id } });
       res.sendStatus(232)
@@ -54,4 +54,6 @@ module.exports = {
       res.status(540).send("you have error");
     }
   },
+
 };
+
