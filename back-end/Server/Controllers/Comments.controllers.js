@@ -12,9 +12,9 @@ module.exports = {
       return;
     } catch (error) {
       console.log(error);
+      res.status(530).send("you have error");
+      return;
     }
-    res.status(530).send("you have error");
-    return;
   },
   //method to add a comment to the database via the respective model function.
   addComment: async (req, res) => {
@@ -51,7 +51,7 @@ module.exports = {
       res.send(updateComment);
     } catch (error) {
       console.log(error);
-      res.status(540).send("you have error");
+      res.status(540).send("error");
     }
   },
 };
