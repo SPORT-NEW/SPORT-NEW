@@ -9,8 +9,8 @@ import { AboutComponent } from './about/about.component';
 import { LoginComponent } from './login/login.component';
 import { SignUpComponent } from './sign-up/sign-up.component';
 import { DataService } from './data.service';
+import { HttpClientModule } from '@angular/common/http';
 import { SearchComponent } from './search/search.component';
-
 @NgModule({
   declarations: [
     AppComponent,
@@ -19,11 +19,12 @@ import { SearchComponent } from './search/search.component';
     AboutComponent,
     LoginComponent,
     SignUpComponent,
-    SearchComponent
+    SearchComponent,
     
   ],
   imports: [
     BrowserModule,
+    HttpClientModule,
     AppRoutingModule
   ],
   providers: [
