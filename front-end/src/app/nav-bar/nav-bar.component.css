@@ -1,0 +1,187 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+#container
+{
+    height: 30vh;
+    width: 100%;
+    position: relative;
+    top: 0;
+    left: 0;
+    background: #e9e9eb;
+}
+/* logo */
+#container #logo
+{
+    position: absolute;
+    left: 10%;
+    top: 30px;
+    font-size: 40px;
+    z-index: 999;
+    font-weight: bold;
+    color: #083b74f7;
+}
+/* navbar */
+#navbar
+{
+    height: 55px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #fdfefea7;
+    display: grid;
+    place-items: center;
+}
+#navbar ul
+{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+#navbar ul li
+{
+    font-size: 20px;
+    margin: 0 45px;
+}
+#navbar ul li a
+{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.886);
+}
+#navbar ul li a:hover
+{
+    color: #f01d09;
+}
+/* login button */
+#navbar ul #login
+{
+    height: 50px;
+    width: 120px;
+    position: absolute;
+    top: 0px;
+    right: 7%;
+    display: grid;
+    place-items: center;
+    background: #e73c08;
+    border-radius: 10px 20px;
+}
+#navbar ul #login a
+{
+    color: white;
+}
+#navbar ul #login:hover
+{
+    background: black;
+}
+#center{
+   height: 20vh;
+    width: 300px;
+    margin: 65px auto;
+    display: flex;
+    -webkit-box-direction: normal;
+            flex-direction: column;
+  position: relative;
+
+}
+
+
+.pointer{
+    cursor: pointer;
+}
+
+
+.hide-sign{
+    position: absolute;
+    right: 3px;
+    top: 0px;
+    width: 32px;
+    height: 0px;
+    opacity: 1;
+    
+
+}
+
+
+.hide-sign:hover{
+    opacity: 0.5;
+}
+
+
+.step2{
+    margin-top: -20%;
+    margin-right: 10%;
+    margin-left: 50%;
+}
+
+
+.welcome {
+    text-indent: 50px;
+    
+    letter-spacing: 5px;
+    text-align: center;
+  
+  color: #564caf;
+  }
+
+
+  h2 span{
+      color :#e73c08
+  }
+
+
+.news{ 
+    text-indent: 50px;
+  text-align: justify;
+  letter-spacing: 3px;
+    
+
+}
+
+
+img{
+    padding: 20;
+    margin: 30;
+    top: 0%;
+    margin-right:50% ;
+}
+
+
+.news2{ 
+    text-indent: 50px;
+  text-align: justify;
+  letter-spacing: 3px;
+    
+
+}
+
+
+.step3{
+    margin-top: -20%;
+    margin-right: 10%;
+    margin-left: 50%;
+}
+#navbar ul #sign
+{
+    height: 50px;
+    width: 120px;
+    position: absolute;
+    top: 0px;
+    right: 0%;
+    display: grid;
+    place-items: center;
+    background: #e73c08;
+    border-radius: 10px 20px;
+}
+#navbar ul #sign a
+{
+    color: white;
+}
+#navbar ul #sign:hover
+{
+    background: black;
+}
