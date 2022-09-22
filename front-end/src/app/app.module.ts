@@ -11,6 +11,8 @@ import { SignUpComponent } from './sign-up/sign-up.component';
 import { HttpClientModule } from '@angular/common/http';
 import { DataService } from './_services/data.service';
 import { SearchComponent } from './search/search.component';
+import { AddnewsComponent } from './addnews/addnews.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -20,12 +22,14 @@ import { SearchComponent } from './search/search.component';
     AboutComponent,
     LoginComponent,
     SignUpComponent,
-    SearchComponent
+    SearchComponent,
+    AddnewsComponent
   ],
   imports: [
     BrowserModule,
     HttpClientModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [
     DataService
