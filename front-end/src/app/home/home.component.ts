@@ -12,7 +12,7 @@ export class HomeComponent implements OnInit {
   posts: any
   constructor(private news: DataService) {
     this.news.getAll().subscribe(res => { 
-      console.log(res);
+      console.log("getall-->",res);
             this.posts = res } 
     )
 
