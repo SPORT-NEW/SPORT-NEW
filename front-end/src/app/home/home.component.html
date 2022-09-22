@@ -1,7 +1,13 @@
-<div class="box" *ngFor=" let i of posts">
+<div>
+<div class="search-hero">
+    <input class="form-control" type="text" name="search" [(ngModel)]="searchText" autocomplete="off" placeholder="&#61442;  Start searching for a hero by id or name or country">
+  </div>
+
+<div class="box" *ngFor=" let i of posts | filter:searchText">
     <h3>{{i.title}}</h3><br>
     <h3>{{i.theme}}</h3>
     <img id="pictureofNews" src={{i.image}} />
     <button class="themodificationparts"> showComments</button>
 
+</div>
 </div>

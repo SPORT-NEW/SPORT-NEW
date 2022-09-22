@@ -11,8 +11,9 @@ import { SignUpComponent } from './sign-up/sign-up.component';
 import { HttpClientModule } from '@angular/common/http';
 import { DataService } from './_services/data.service';
 import { SearchComponent } from './search/search.component';
+import { AddnewsComponent } from './addnews/addnews.component';
+import { FormsModule } from '@angular/forms';
 import { Ng2SearchPipeModule } from 'ng2-search-filter';
-
 
 @NgModule({
   declarations: [
@@ -22,13 +23,15 @@ import { Ng2SearchPipeModule } from 'ng2-search-filter';
     AboutComponent,
     LoginComponent,
     SignUpComponent,
-    SearchComponent
+    SearchComponent,
+    AddnewsComponent
   ],
   imports: [
     BrowserModule,
     HttpClientModule,
     AppRoutingModule,
-    Ng2SearchPipeModule,
+    FormsModule,
+    Ng2SearchPipeModule ,
   ],
   providers: [
     DataService

@@ -1,0 +1,38 @@
+<div class="add">
+    <div>
+        <h3><b>ADD</b></h3>
+    </div>
+    <form #f="ngForm" (ngSubmit)="newpost(f)">
+        <div class="form-group">
+            <label>title</label>
+            <input type="text" class="form-control" placeholder="Place name" name="title" #title="ngModel" ngModel />
+        </div>
+        <div class="form-group">
+            <label>content</label>
+            <textarea type="text" class="form-control" placeholder="Be free ..." name="content" #content="ngModel" ngModel></textarea>
+
+        </div>
+        <div class="form-group">
+            <label>theme</label>
+            <select name="theme" #theme="ngModel" ngModel>
+                <option>Football</option>
+                <option>Tennis</option>
+                <option>Handball</option>
+                <option>NBA</option>
+                <option>Basketball</option>
+                <option>F1</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="Image">Image : </label>
+            <input type="file" ref="file" multiple accept="image/*" />
+        </div>
+        <hr />
+        <img id="output" width="50" />
+        <hr />
+        <div class="my-3">
+            <button type="submit" class="btn" value="share"> share <i class="fa-solid fa-share"></i></button>
+
+        </div>
+    </form>
+</div>
