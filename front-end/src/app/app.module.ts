@@ -8,10 +8,12 @@ import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
 import { LoginComponent } from './login/login.component';
 import { SignUpComponent } from './sign-up/sign-up.component';
-import { DataService } from './data.service';
 import { HttpClientModule } from '@angular/common/http';
+import { DataService } from './_services/data.service';
 import { SearchComponent } from './search/search.component';
-import {Ng2SearchPipeModule} from 'ng2-search-filter';
+import { Ng2SearchPipeModule } from 'ng2-search-filter';
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -20,8 +22,7 @@ import {Ng2SearchPipeModule} from 'ng2-search-filter';
     AboutComponent,
     LoginComponent,
     SignUpComponent,
-    SearchComponent,
-    
+    SearchComponent
   ],
   imports: [
     BrowserModule,
