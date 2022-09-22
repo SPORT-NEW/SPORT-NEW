@@ -53,7 +53,7 @@ module.exports = {
       res.send(updateComment);
     } catch (error) {
       console.log(error);
-      res.status(540).send("you have error");
+      res.status(540).send("error");
     }
   },
 
