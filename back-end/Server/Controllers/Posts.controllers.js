@@ -61,6 +61,7 @@ module.exports = {
       const post = await db.Post.create(req.body);
       res.status(201).json(post);
     } catch (error) {
+      console.log(error);
       res.status(409).send(error);
     }
   },
