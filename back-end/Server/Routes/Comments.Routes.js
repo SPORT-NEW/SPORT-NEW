@@ -14,7 +14,7 @@ const router = express.Router() ;
 /// POSTS ROUTES /// 
 
 //GET request to fetch all posts.
-router.get('/allComments/:id',getAllComment) ;
+router.get('/allComments',getAllComment) ;
 // POST request for creating a new post.
 router.post ('/add',addComment) ;
 //DELETE request to delete 
