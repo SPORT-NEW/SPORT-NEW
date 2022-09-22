@@ -8,8 +8,9 @@ import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
 import { LoginComponent } from './login/login.component';
 import { SignUpComponent } from './sign-up/sign-up.component';
-import { DataService } from './data.service';
 import { HttpClientModule } from '@angular/common/http';
+import { DataService } from './_services/data.service';
+import { SearchComponent } from './search/search.component';
 
 @NgModule({
   declarations: [
@@ -19,6 +20,7 @@ import { HttpClientModule } from '@angular/common/http';
     AboutComponent,
     LoginComponent,
     SignUpComponent,
+    SearchComponent
   ],
   imports: [
     BrowserModule,
