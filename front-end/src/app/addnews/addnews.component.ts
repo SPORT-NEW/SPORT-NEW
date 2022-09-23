@@ -20,7 +20,8 @@ export class AddnewsComponent implements OnInit {
     this.data.addNew(post).subscribe(res => {
       console.log("addres--->",res)
       this.path.navigate(['/home'])
-    })
+    }
+    )
 
   }
 }
