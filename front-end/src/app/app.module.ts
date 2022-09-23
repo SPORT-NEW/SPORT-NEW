@@ -13,6 +13,7 @@ import { DataService } from './_services/data.service';
 import { SearchComponent } from './search/search.component';
 import { AddnewsComponent } from './addnews/addnews.component';
 import { FormsModule } from '@angular/forms';
+import { Ng2SearchPipeModule } from 'ng2-search-filter';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import { FormsModule } from '@angular/forms';
     BrowserModule,
     HttpClientModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    Ng2SearchPipeModule ,
   ],
   providers: [
     DataService
