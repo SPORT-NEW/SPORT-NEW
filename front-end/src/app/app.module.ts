@@ -8,7 +8,11 @@ import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
 import { LoginComponent } from './login/login.component';
 import { SignUpComponent } from './sign-up/sign-up.component';
-import { DataService } from './data.service';
+import { HttpClientModule } from '@angular/common/http';
+import { DataService } from './_services/data.service';
+import { SearchComponent } from './search/search.component';
+import { AddnewsComponent } from './addnews/addnews.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -18,10 +22,14 @@ import { DataService } from './data.service';
     AboutComponent,
     LoginComponent,
     SignUpComponent,
+    SearchComponent,
+    AddnewsComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    HttpClientModule,
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [
     DataService
