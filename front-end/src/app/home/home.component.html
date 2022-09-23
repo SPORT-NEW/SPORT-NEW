@@ -1,6 +1,15 @@
-<div class="box" *ngFor=" let i of posts">
+<div>
+<div class="searchBox">
+    <input class="searchInput" type="text" name="search" [(ngModel)]="searchText" autocomplete="off" placeholder="  Start searching ">
+  </div>
+
+<div class="box" *ngFor=" let i of posts | filter:searchText;index as a">
     <h3>{{i.title}}</h3><br>
+    <h3>{{i.theme}}</h3>
     <img id="pictureofNews" src={{i.image}} />
     <button class="themodificationparts"> showComments</button>
+    <button class="btn" (click)="delete(i.id,a)">delete</button>
 
 </div>
+</div>
+   
