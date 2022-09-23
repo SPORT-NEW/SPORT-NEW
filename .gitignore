@@ -38,7 +38,7 @@ bower_components
 build/Release
 
 # Dependency directories
-node_modules/
+back-end\node_modules/
 jspm_packages/
 
 # TypeScript v1 declaration files
@@ -104,4 +104,9 @@ dist
 .tern-port
 
 #configdb
+<<<<<<< HEAD
+=======
+configuration
+node_modules
+>>>>>>> 320dc743dcfc2a23c4ee0fa497447ff7b2c277ce
 config.json
