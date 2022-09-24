@@ -35,14 +35,17 @@ module.exports = {
       const userAuth = await db.User.findOne({
         where:
         {
-          username: req.body.username
+          username : req.body.username
         }
       }
       );
-      const Match = bcrypt.compareSync(user.password, userAuth.dataValues.password);
+      console.log("userAuth", userAuth.username);
+      console.log("userAuth", userAuth.password);
+
+      const Match = bcrypt.compareSync(userAuth.password, userAuth.dataValues.password);
       if (Match) {
-        const token = jwt.sign( userAuth.dataValues, 'secret');
-        res.cookie("auth", token);
+        // const token = jwt.sign( userAuth.dataValues, 'secret');
+        // res.cookie("auth", token);
         res.send({ message: 'welcome Back'})
       } else {   
         res.send({ message: 'check the entries' });
