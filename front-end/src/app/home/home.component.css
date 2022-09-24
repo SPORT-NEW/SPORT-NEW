@@ -39,23 +39,7 @@ img {
   height: 48px;
 
 }
-.searchInput{
 
-
-  font-size: 14px;
-  border-radius: 6px;
-  line-height: 1.5;
-  padding: 5px 10px;
-  transition: box-shadow 100ms ease-in, border 100ms ease-in, background-color 100ms ease-in;
-  border: 2px solid #dee1e2;
-  color: rgb(14, 14, 16);
-  background: #dee1e2;
-  display: block;
-  height: 36px;
- 
-  
-  
-}
 .btns{
   
  
@@ -96,7 +80,18 @@ img {
     border-radius: 8px;
     width: 300px;
     padding: .5em 1em .5em 2.5em;
+    /* right: 50%; */
     } 
+    .searchBox{
+margin-left: 36%;
+    }
+
+
+
+
+
+
+    
 
  
   
