@@ -1,6 +1,6 @@
 <div>
   <div class="searchBox">
-      <input class="searchInput" type="text" name="search" [(ngModel)]="searchText" autocomplete="off" placeholder="  Start searching ">
+      <input class="input-inset" type="text" name="search" [(ngModel)]="searchText" autocomplete="off" placeholder="  Start searching ">
     </div>
   
   <div class="box" *ngFor=" let i of posts | filter:searchText;index as a">
@@ -74,7 +74,7 @@
         </div>
         <!-- end edit form -->
 
-
+        
 
 
         </div>
