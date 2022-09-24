@@ -107,6 +107,27 @@ margin-left: 39%;
       display: grid;
       
     }
+    .btn-secondary{
+      background-color: #083b74f7;
+      top: 0px;
+      right: 0%;
+      height: 50px;
+      width: 120px;
+      border-radius: 10px 20px;
+      place-items: center;
+      display: grid;
+    }
+    .btn-primary{
+      background-color: #083b74f7;
+      top: 0px;
+      right: 0%;
+      height: 50px;
+      width: 120px;
+      border-radius: 10px 20px;
+      place-items: center;
+      display: grid;
+      
+    }
 
 
 
