@@ -48,7 +48,7 @@ img {
   padding: 5px 10px;
   transition: box-shadow 100ms ease-in, border 100ms ease-in, background-color 100ms ease-in;
   border: 2px solid #dee1e2;
-  color: rgb(14, 14, 16);
+  color: #083a74fa;
   background: #dee1e2;
   display: block;
   height: 36px;
