@@ -1,0 +1,91 @@
+.box {
+    background: #e0dfdfec;
+    border-radius: .75em;
+   /* 
+  
+   vertical-align: baseline;
+    */ 
+   margin: auto;
+   width: 50%;
+   border: 3px solid rgba(85, 83, 83, 0.025);
+   padding: 10px;
+   padding: .25em .5em;
+   box-shadow: rgb(168, 168, 161) -2px -2px 0px 2px, rgb(168, 150, 150) 0px 0px 0px 4px, rgba(0, 0, 0, 0.05) 0px 0px 2px 7px;
+   margin-top:  50px;
+   margin-left: 22%;
+ }
+ img {
+   width: 700px;
+ }
+ .btn{
+ 
+   display: inline-block;
+   outline: none;
+   cursor: pointer;
+   font-size: 14px;
+   line-height: 1;
+   border-radius: 500px;
+   transition-property: background-color,border-color,color,box-shadow,filter;
+   transition-duration: .3s;
+   border: 1px solid transparent;
+   letter-spacing: 2px;
+   min-width: 160px;
+   text-transform: uppercase;
+   white-space: normal;
+   font-weight: 700;
+   text-align: center;
+   padding: 16px 14px 18px;
+   color: #fff;
+   background: linear-gradient(to right, rgb(230, 30, 77) 0%, rgb(230, 30, 77) 50%, rgb(230, 30, 77) 100%);
+   height: 48px;
+ 
+ }
+ .searchInput{
+ 
+ 
+   font-size: 14px;
+   border-radius: 6px;
+   line-height: 1.5;
+   padding: 5px 10px;
+   transition: box-shadow 100ms ease-in, border 100ms ease-in, background-color 100ms ease-in;
+   border: 2px solid #dee1e2;
+   color: #083a74fa;
+   background: #dee1e2;
+   display: block;
+   height: 36px;
+  
+   
+   
+ }
+ .btns{
+   
+  
+   display: inline-block;
+   outline: none;
+   cursor: pointer;
+   font-size: 14px;
+   line-height: 1;
+   border-radius: 500px;
+   transition-property: background-color,border-color,color,box-shadow,filter;
+   transition-duration: .3s;
+   border: 1px solid transparent;
+   letter-spacing: 2px;
+   min-width: 160px;
+   text-transform: uppercase;
+   white-space: normal;
+   font-weight: 700;
+   text-align: center;
+   padding: 16px 14px 18px;
+   color: #fff;
+   background: linear-gradient(to right, rgb(51, 123, 54) 0%, rgb(51, 123, 54) 50%, rgb(51, 123, 54) 100%);
+   height: 48px;
+ 
+   }
+   .theme {
+    
+   }
+ 
+  
+   
+ 
+ 
