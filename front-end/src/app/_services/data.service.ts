@@ -13,7 +13,7 @@ export class DataService {
     return this.http.get("http://localhost:3000/getAll")
   }
   //add new news
-  addNew(add:any){
+  addNew(add:any) :Observable<any>{
 return this.http.post("http://localhost:3000/addPost",add)
   }
   deletenews(id:any){

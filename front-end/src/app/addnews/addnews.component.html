@@ -2,7 +2,7 @@
     <div>
         <h3><b>ADD</b></h3>
     </div>
-    <form #f="ngForm" (ngSubmit)="newpost(f)">
+    <form #add="ngForm" (ngSubmit)="newpost(add)">
         <div class="form-group">
             <label>title</label>
             <input type="text" class="form-control" placeholder="Place name" name="title" #title="ngModel" ngModel />
@@ -24,11 +24,11 @@
             </select>
         </div>
         <div class="form-group">
-            <label for="Image">Image : </label>
-            <input type="file" ref="file" multiple accept="image/*" />
+            <label>Image : </label>
+            <input type="file" ref="file" multiple accept="image/*" (change)="fileUpload($event)" name="image" #image="ngModel" ngModel/>
         </div>
         <hr />
-        <img id="output" width="50" />
+        <img id="output" width="500" src={{files}} />
         <hr />
         <div class="my-3">
             <button type="submit" class="btn" value="share"> share <i class="fa-solid fa-share"></i></button>
