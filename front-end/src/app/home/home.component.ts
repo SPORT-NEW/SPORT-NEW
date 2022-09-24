@@ -9,7 +9,8 @@ import { HttpClient } from '@angular/common/http';
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent implements OnInit {
-  posts: any
+  posts: any=[];
+  searchText:any;
   constructor(private news: DataService) {
     this.news.getAll().subscribe(res => { 
       console.log("getall-->",res);
@@ -21,6 +22,12 @@ export class HomeComponent implements OnInit {
   }
   ngOnInit(): void {
 
+  }
+  delete(id:any,a:number ){
+  this.news.deletenews(id).subscribe(res=>{
+    console.log(res)
+    this.posts.splice(a,1)
+  })
   }
 
 }
