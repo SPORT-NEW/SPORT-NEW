@@ -10,7 +10,6 @@ import { LoginComponent } from './login/login.component';
 import { SignUpComponent } from './sign-up/sign-up.component';
 import { HttpClientModule } from '@angular/common/http';
 import { DataService } from './_services/data.service';
-import { SearchComponent } from './search/search.component';
 import { AddnewsComponent } from './addnews/addnews.component';
 import { FormsModule } from '@angular/forms';
 import { Ng2SearchPipeModule } from 'ng2-search-filter';
@@ -23,7 +22,6 @@ import { Ng2SearchPipeModule } from 'ng2-search-filter';
     AboutComponent,
     LoginComponent,
     SignUpComponent,
-    SearchComponent,
     AddnewsComponent
   ],
   imports: [
@@ -31,7 +29,7 @@ import { Ng2SearchPipeModule } from 'ng2-search-filter';
     HttpClientModule,
     AppRoutingModule,
     FormsModule,
-    Ng2SearchPipeModule 
+    Ng2SearchPipeModule
   ],
   providers: [
     DataService

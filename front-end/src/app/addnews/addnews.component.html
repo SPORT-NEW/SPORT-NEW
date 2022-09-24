@@ -4,17 +4,17 @@
     </div>
     <form #add="ngForm" (ngSubmit)="newpost(add)">
         <div class="form-group">
-            <label>title</label>
+            <label>Title</label>
             <input type="text" class="form-control" placeholder="Place name" name="title" #title="ngModel" ngModel />
         </div>
         <div class="form-group">
-            <label>content</label>
+            <label>Content</label>
             <textarea type="text" class="form-control" placeholder="Be free ..." name="content" #content="ngModel" ngModel></textarea>
 
         </div>
         <div class="form-group">
-            <label>theme</label>
-            <select name="theme" #theme="ngModel" ngModel>
+            <label>Theme</label>
+            <select class="sel" name="theme" #theme="ngModel" ngModel>
                 <option>Football</option>
                 <option>Tennis</option>
                 <option>Handball</option>
@@ -24,14 +24,15 @@
             </select>
         </div>
         <div class="form-group">
-            <label>Image : </label>
-            <input type="file" ref="file" multiple accept="image/*" (change)="fileUpload($event)" name="image" #image="ngModel" ngModel/>
+            <label for="inputTag">Image : </label>
+            <input id="inputTag" type="file" ref="file" multiple accept="image/*" (change)="fileUpload($event)" name="image" #image="ngModel" ngModel/>
         </div>
         <hr />
         <img id="output" width="500" src={{files}} />
         <hr />
         <div class="my-3">
             <button type="submit" class="btn" value="share"> share <i class="fa-solid fa-share"></i></button>
+
 
         </div>
     </form>
