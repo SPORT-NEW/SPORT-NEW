@@ -16,4 +16,7 @@ export class DataService {
   addNew(add:any) :Observable<any>{
 return this.http.post("http://localhost:3000/addPost",add)
   }
+  deletenews(id:any){
+    return this.http.delete("http://localhost:3000/"+id )
+  }
 }

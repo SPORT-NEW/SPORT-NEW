@@ -104,6 +104,9 @@ dist
 .tern-port
 
 #configdb
+<<<<<<< HEAD
+=======
 configuration
 node_modules
+>>>>>>> 320dc743dcfc2a23c4ee0fa497447ff7b2c277ce
 config.json

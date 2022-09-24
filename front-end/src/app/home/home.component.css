@@ -1,17 +1,72 @@
 .box {
-    display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 1% 1% 1% 1%;
-  border: 3px;
-  border-color: aliceblue;
-  border-style: hidden;
-  color: rgb(10, 10, 10);
-  font-size: 20px;
-  margin-right: 20%;
-  margin-left: 20%;
+   background: #e0dfdfec;
+   border-radius: .75em;
+  /* 
+ 
+  vertical-align: baseline;
+   */ 
+  margin: auto;
+  width: 50%;
+  border: 3px solid rgba(85, 83, 83, 0.025);
+  padding: 10px;
+  padding: .25em .5em;
+  box-shadow: rgb(162, 162, 150) -2px -2px 0px 2px, rgb(168, 150, 150) 0px 0px 0px 4px, rgba(0, 0, 0, 0.05) 0px 0px 2px 7px;
+  
+}
+img {
+  width: 600px;
+}
+.btn{
+
+  display: inline-block;
+  outline: none;
   cursor: pointer;
-  }
-  img {
-    width: 600px;
-  }
+  font-size: 30px;
+  line-height: 20px;
+  font-weight: 600;
+  border-radius: 8px;
+  padding: 20px;
+  border: none;
+  transition: box-shadow 0.2s ease 0s, -ms-transform 0.1s ease 0s, -webkit-transform 0.1s ease 0s, transform 0.1s ease 0s;
+  background: linear-gradient(to right, rgb(230, 30, 77) 0%, rgb(227, 28, 95) 50%, rgb(215, 4, 102) 100%);
+  color: #fff;
+  border-radius: 40px;
+
+}
+.searchInput{
+
+
+  font-size: 14px;
+  border-radius: 6px;
+  line-height: 1.5;
+  padding: 5px 10px;
+  transition: box-shadow 100ms ease-in, border 100ms ease-in, background-color 100ms ease-in;
+  border: 2px solid #dee1e2;
+  color: rgb(14, 14, 16);
+  background: #dee1e2;
+  display: block;
+  height: 36px;
+ 
+  
+  
+}
+.btns{
+  
+  display: inline-block;
+  outline: 0;
+  border:0;
+  cursor: pointer;
+  text-decoration: none;
+  position: relative;
+  color: #000;
+  background: rgb(177, 165, 228);
+  line-height: 10px;
+  border-radius: 40px;
+  padding: 20px;
+  font-size: 30px;
+  font-weight: 600;
+  box-shadow: rgb(226, 226, 44) -2px -2px 0px 2px, rgb(159, 81, 81) 0px 0px 0px 4px, rgba(0, 0, 0, 0.05) 0px 0px 2px 7px;
+  transition: all 0.2s;
+ 
+  
+}
