@@ -1,5 +1,6 @@
 import { UserService } from './../_services/user.service';
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-sign-up',
@@ -7,35 +8,17 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./sign-up.component.css'],
 })
 export class SignUpComponent implements OnInit {
-  form: any = {
-    username: null,
-    email: null,
-    password: null,
-  
-  };
-  signup = false;
-  signupfailed = false;
-  error = '';
 
-  constructor(private userservice :UserService) {}
+
+  constructor(private userservice :UserService,private path: Router) {}
 
   ngOnInit(): void {}
-  onSubmit(event:any){
-    event.preventDefault();
-    const { username, email, password,  } = this.form;
-    console.log(username, email, password);
+  onSubmit(user:any){
     
-    this.userservice.signup(username, email, password).subscribe(  {
-      next: (data) => {
-        console.log(data);
-        this.signup = true;
-        this.signupfailed = false;
-      },
-      error: (err) => {
-        this.error = err.error.message;
-        this.signupfailed = true;
-        this.signup = false;
-      }
-    });
+  
+    
+    
+    this.userservice.signup(user.value).subscribe(  ()=>this.path.navigate(['/login'])
+    );
   }
 }
