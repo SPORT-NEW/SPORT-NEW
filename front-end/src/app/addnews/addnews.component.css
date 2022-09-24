@@ -1,13 +1,10 @@
 .add{
     background: #e0dfdfec;
     border-radius: .75em;
-   /* 
-  
-   vertical-align: baseline;
-    */ 
+   
    margin: auto;
    width: 50%;
-   border: 3px solid rgba(85, 83, 83, 0.025);
+   border: 3px solid rgba(86, 85, 88, 0.025);
    padding: 10px;
    padding: .25em .5em;
    box-shadow: rgb(162, 162, 150) -2px -2px 0px 2px, rgb(168, 150, 150) 0px 0px 0px 4px, rgba(0, 0, 0, 0.05) 0px 0px 2px 7px;
@@ -19,7 +16,7 @@ width: 100%;
 padding: 12px 20px;
 margin: 8px 0;
 display: inline-block;
-border: 1px solid #ccc;
+border: 1px solid rgb(3, 3, 3);
 border-radius: 4px;
 box-sizing: border-box;
 }
@@ -28,7 +25,7 @@ width: 100%;
 padding: 12px 20px;
 margin: 8px 0;
 display: inline-block;
-border: 1px solid #ccc;
+border: 1px solid rgb(5, 5, 5);
 border-radius: 4px;
 box-sizing: border-box;
 }
@@ -37,17 +34,17 @@ width: 100%;
 padding: 12px 20px;
 margin: 8px 0;
 display: inline-block;
-border: 1px solid #ccc;
+border: 1px solid rgb(11, 11, 11);
 border-radius: 4px;
 box-sizing: border-box;
 }
 input[type=submit] {
 width: 100%;
-background-color: #34495E; 
+background-color: #fdfefea7; 
 color: white;
 padding: 14px 20px;
 margin: 8px 0;
-border: none;
+border: 1px solid rgb(11, 11, 11);
 border-radius: 4px;
 cursor: pointer;
 }
@@ -72,6 +69,50 @@ background-color: #45a049; /* Green */
     text-align: center;
     padding: 16px 14px 18px;
     color: #fff;
-    background-color: #1e4ab8;
+    background-color: #083b74f7;
     height: 48px;
+}
+.form-control{
+
+    box-shadow: inset #abacaf 0 0 0 2px;
+    border: 0;
+    background: rgba(0, 0, 0, 0);
+    appearance: none;
+    width: 100%;
+    position: relative;
+    border-radius: 3px;
+    padding: 9px 12px;
+    line-height: 1.4;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    font-weight: 400;
+    height: 40px;
+    transition: all .2s ease;
+ 
+
+}
+.sel{
+    box-shadow: inset #abacaf 0 0 0 2px;
+    border: 0;
+    background: rgba(0, 0, 0, 0);
+    appearance: none;
+    width: 100%;
+    position: relative;
+    border-radius: 3px;
+    padding: 9px 12px;
+    line-height: 1.4;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    font-weight: 400;
+    height: 40px;
+    transition: all .2s ease;  
+}
+img {
+    width:700px;
+}
+.input{
+    display: none;
+  }
+  .label{
+    cursor: pointer;
 }
