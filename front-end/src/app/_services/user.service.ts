@@ -20,4 +20,12 @@ export class UserService {
       this.httpOptions
     )
   }
+
+  login(data:any):Observable<any>{
+    return this.http.post(
+      'http://localhost:3000/user/signin',
+      data,
+      // this.httpOptions,
+    )
+  }
 }

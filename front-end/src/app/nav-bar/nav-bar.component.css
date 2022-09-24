@@ -55,7 +55,7 @@
 }
 #navbar ul li a:hover
 {
-    color: #f01d09;
+    color: #ae2e2e;
 }
 /* login button */
 #navbar ul #login
@@ -67,7 +67,7 @@
     right: 7%;
     display: grid;
     place-items: center;
-    background: #e73c08;
+    background-color: #083b74f7;
     border-radius: 10px 20px;
 }
 #navbar ul #login a
@@ -130,7 +130,7 @@
 
 
   h2 span{
-      color :#e73c08
+      color :#fb3f06
   }
 
 
@@ -174,7 +174,7 @@ img{
     right: 0%;
     display: grid;
     place-items: center;
-    background: #e73c08;
+    background-color: #083b74f7;
     border-radius: 10px 20px;
 }
 #navbar ul #sign a
@@ -184,4 +184,13 @@ img{
 #navbar ul #sign:hover
 {
     background: black;
+}
+#tiger1{
+    transform: scaleX(-1);
+    margin-top: -24%;
+    margin-left: 57%;
+}
+.ti{
+    margin-top: -5%;
+    margin-left: -2%;
 }
