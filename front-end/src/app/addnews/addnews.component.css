@@ -8,7 +8,7 @@
    padding: 10px;
    padding: .25em .5em;
    box-shadow: rgb(162, 162, 150) -2px -2px 0px 2px, rgb(168, 150, 150) 0px 0px 0px 4px, rgba(0, 0, 0, 0.05) 0px 0px 2px 7px;
-   margin-top:  50px;
+   margin-top:  120px;
 }
 
 input[type=text], select {
@@ -25,7 +25,7 @@ width: 100%;
 padding: 12px 20px;
 margin: 8px 0;
 display: inline-block;
-border: 1px solid rgb(5, 5, 5);
+border: 1px solid rgb(3, 3, 3);
 border-radius: 4px;
 box-sizing: border-box;
 }
@@ -34,7 +34,7 @@ width: 100%;
 padding: 12px 20px;
 margin: 8px 0;
 display: inline-block;
-border: 1px solid rgb(11, 11, 11);
+border: 1px solid rgb(3, 3, 3);
 border-radius: 4px;
 box-sizing: border-box;
 }
@@ -74,7 +74,7 @@ background-color: #45a049; /* Green */
 }
 .form-control{
 
-    box-shadow: inset #abacaf 0 0 0 2px;
+    box-shadow: inset #5f6161 0 0 0 2px;
     border: 0;
     background: rgba(0, 0, 0, 0);
     appearance: none;
@@ -92,7 +92,7 @@ background-color: #45a049; /* Green */
 
 }
 .sel{
-    box-shadow: inset #abacaf 0 0 0 2px;
+    box-shadow: inset #5f6161 0 0 0 2px;
     border: 0;
     background: rgba(0, 0, 0, 0);
     appearance: none;
@@ -105,7 +105,7 @@ background-color: #45a049; /* Green */
     font-size: 16px;
     font-weight: 400;
     height: 40px;
-    transition: all .2s ease;  
+    transition: all .2s ease;
 }
 img {
     width:700px;

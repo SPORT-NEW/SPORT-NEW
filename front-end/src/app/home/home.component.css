@@ -10,8 +10,8 @@
   border: 3px solid rgba(85, 83, 83, 0.025);
   padding: 10px;
   padding: .25em .5em;
-  box-shadow: rgb(162, 162, 150) -2px -2px 0px 2px, rgb(168, 150, 150) 0px 0px 0px 4px, rgba(0, 0, 0, 0.05) 0px 0px 2px 7px;
-  
+  box-shadow: rgb(168, 168, 161) -2px -2px 0px 2px, rgb(168, 150, 150) 0px 0px 0px 4px, rgba(0, 0, 0, 0.05) 0px 0px 2px 7px;
+  margin-top:  50px;
 }
 img {
   width: 700px;
@@ -35,7 +35,7 @@ img {
   text-align: center;
   padding: 16px 14px 18px;
   color: #fff;
-  background: linear-gradient(to right, rgb(230, 30, 77) 0%, rgb(227, 28, 95) 50%, rgb(215, 4, 102) 100%);
+  background: linear-gradient(to right, rgb(230, 30, 77) 0%, rgb(230, 30, 77) 50%, rgb(230, 30, 77) 100%);
   height: 48px;
 
 }
@@ -76,7 +76,7 @@ img {
   text-align: center;
   padding: 16px 14px 18px;
   color: #fff;
-  background-color: #15883e;
+  background: linear-gradient(to right, rgb(51, 123, 54) 0%, rgb(51, 123, 54) 50%, rgb(51, 123, 54) 100%);
   height: 48px;
 
   }
