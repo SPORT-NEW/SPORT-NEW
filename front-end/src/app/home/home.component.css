@@ -14,23 +14,29 @@
   
 }
 img {
-  width: 600px;
+  width: 700px;
 }
 .btn{
 
   display: inline-block;
   outline: none;
   cursor: pointer;
-  font-size: 30px;
-  line-height: 20px;
-  font-weight: 600;
-  border-radius: 8px;
-  padding: 20px;
-  border: none;
-  transition: box-shadow 0.2s ease 0s, -ms-transform 0.1s ease 0s, -webkit-transform 0.1s ease 0s, transform 0.1s ease 0s;
-  background: linear-gradient(to right, rgb(230, 30, 77) 0%, rgb(227, 28, 95) 50%, rgb(215, 4, 102) 100%);
+  font-size: 14px;
+  line-height: 1;
+  border-radius: 500px;
+  transition-property: background-color,border-color,color,box-shadow,filter;
+  transition-duration: .3s;
+  border: 1px solid transparent;
+  letter-spacing: 2px;
+  min-width: 160px;
+  text-transform: uppercase;
+  white-space: normal;
+  font-weight: 700;
+  text-align: center;
+  padding: 16px 14px 18px;
   color: #fff;
-  border-radius: 40px;
+  background: linear-gradient(to right, rgb(230, 30, 77) 0%, rgb(227, 28, 95) 50%, rgb(215, 4, 102) 100%);
+  height: 48px;
 
 }
 .searchInput{
@@ -52,21 +58,32 @@ img {
 }
 .btns{
   
+ 
   display: inline-block;
-  outline: 0;
-  border:0;
+  outline: none;
   cursor: pointer;
-  text-decoration: none;
-  position: relative;
-  color: #000;
-  background: rgb(177, 165, 228);
-  line-height: 10px;
-  border-radius: 40px;
-  padding: 20px;
-  font-size: 30px;
-  font-weight: 600;
-  box-shadow: rgb(226, 226, 44) -2px -2px 0px 2px, rgb(159, 81, 81) 0px 0px 0px 4px, rgba(0, 0, 0, 0.05) 0px 0px 2px 7px;
-  transition: all 0.2s;
+  font-size: 14px;
+  line-height: 1;
+  border-radius: 500px;
+  transition-property: background-color,border-color,color,box-shadow,filter;
+  transition-duration: .3s;
+  border: 1px solid transparent;
+  letter-spacing: 2px;
+  min-width: 160px;
+  text-transform: uppercase;
+  white-space: normal;
+  font-weight: 700;
+  text-align: center;
+  padding: 16px 14px 18px;
+  color: #fff;
+  background-color: #15883e;
+  height: 48px;
+
+  }
+  .theme {
+   
+  }
+
  
   
-}
+
