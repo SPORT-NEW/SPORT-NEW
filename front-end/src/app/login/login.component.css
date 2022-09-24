@@ -1,0 +1,16 @@
+.login {
+    background: #e0dfdfec;
+    border-radius: .75em;
+   /* 
+  
+   vertical-align: baseline;
+    */ 
+   margin: auto;
+   width: 35%;
+   border: 3px solid rgba(85, 83, 83, 0.025);
+   padding: 10px;
+   padding: .25em .5em;
+   box-shadow: rgb(162, 162, 150) -2px -2px 0px 2px, rgb(168, 150, 150) 0px 0px 0px 4px, rgba(0, 0, 0, 0.05) 0px 0px 2px 7px;
+   margin-top:  50px;
+   
+}

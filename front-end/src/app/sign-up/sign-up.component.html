@@ -1,15 +1,26 @@
-<form (onsubmit)="onSubmit">
-<div id="center" >
-    <span class="hide-sign"><a href="#">x</a></span><br><br>
-    <label for="fname"><b>First name:</b></label>
-    <input type="text" placeholder="Enter name" id="fname" name="fname" value="">
-    <br><br>
-   
-    <label for="email"><b>Email:</b></label>
-    <input type="text" placeholder="Enter Email" id="email" name="email" value=""><br>
-    <label for="psw1"><b>Password:</b></label>
-    <input type="password" placeholder="Enter Password" id="psw" name="password" value="">
-    <br>
-    <button id="btn" >Sign Up</button>
+<div class="add">
+    <div>
+        <h3><b>Sign-Up</b></h3>
+    </div>
+    <form #user="ngForm" (ngSubmit)="onSubmit(user)">
+        <div class="form-group">
+
+            <label><b>First name:</b></label>
+            <input class="form-control" type="text" placeholder="Enter name" name="username" #username="ngModel"
+                ngModel>
+        </div>
+
+        <div class="form-group">
+            <label><b>Email:</b></label>
+            <input class="form-control" type="text" placeholder="Enter Email" name="email" #email="ngModel" ngModel><br>
+        </div>
+        <div class="form-group">
+            <label><b>Password:</b></label>
+            <input class="form-control" type="password" placeholder="Enter Password" name="password" #password="ngModel"ngModel>
+        </div>
+        <div class="my-3">
+            <button type="submit" class="btn" value="share"> Sign-Up <i class="fa-solid fa-share"></i></button>
+
+        </div>
+    </form>
 </div>
-</form>

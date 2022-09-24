@@ -7,7 +7,7 @@
 }
 #container
 {
-    height: 30vh;
+    height: 12vh;
     width: 100%;
     position: relative;
     top: 0;
@@ -55,7 +55,7 @@
 }
 #navbar ul li a:hover
 {
-    color: #f01d09;
+    color: #ae2e2e;
 }
 /* login button */
 #navbar ul #login
