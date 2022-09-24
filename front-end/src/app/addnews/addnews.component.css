@@ -46,3 +46,24 @@ cursor: pointer;
 input[type=submit]:hover {
 background-color: #45a049; /* Green */
 }
+input{
+    display: none;
+  }
+  label{
+    cursor: pointer;
+}
+.imgup{
+    text-align:center;
+    padding:3%;
+    border:thin solid black;
+  }
+
+  input{
+    display: none;
+  }
+  label{
+    cursor:pointer;
+  }
+  #imageName{
+    color:green;
+  }
