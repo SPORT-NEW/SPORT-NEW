@@ -67,7 +67,7 @@
     right: 7%;
     display: grid;
     place-items: center;
-    background: #e73c08;
+    background-color: #083b74f7;
     border-radius: 10px 20px;
 }
 #navbar ul #login a
@@ -130,7 +130,7 @@
 
 
   h2 span{
-      color :#e73c08
+      color :#fb3f06
   }
 
 
@@ -174,7 +174,7 @@ img{
     right: 0%;
     display: grid;
     place-items: center;
-    background: #e73c08;
+    background-color: #083b74f7;
     border-radius: 10px 20px;
 }
 #navbar ul #sign a
