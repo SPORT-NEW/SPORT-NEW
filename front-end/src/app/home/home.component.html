@@ -6,14 +6,83 @@
   <div class="box" *ngFor=" let i of posts | filter:searchText;index as a">
     <h3 class="theme">{{i.theme}}</h3> <br>
     <img id="pictureofNews" src={{i.image}} /><br> 
-    <h3>{{i.title}}</h3><br>  
+    <h3>{{i.title}}</h3><br>
+    <h6>{{i.content}}</h6><br>  
+  
      
       <!-- <button class="btns"> Comments</button> -->
-      <button class="btns"> update</button>
+      <button class="btns" (click)="getData(i.id, i.theme, i.content,i.title)"   data-toggle="modal" data-target="#exampleModal" > Edit</button>
       <button class="btn" (click)="delete(i.id,a)">delete</button>
 
   
   </div>
+
+  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+
+
+
+          <!-- /// edit form -->
+          <div class="add">
+            <div>
+                <h3><b>ADD</b></h3>
+            </div>
+            <form #edit="ngForm" (ngSubmit)="update(edit)">
+                <div class="form-group">
+                    <label>title</label>
+                    <input type="text" class="form-control" placeholder="Place name" name="title" #title="ngModel" [(ngModel)]="editData.title" ngModel />
+                </div>
+                <div class="form-group">
+                    <label>content</label>
+                    <textarea type="text" class="form-control" placeholder="Be free ..." name="content" #content="ngModel" [(ngModel)]="editData.content" ngModel></textarea>
+        
+                </div>
+                <div class="form-group">
+                    <label>theme</label>
+                    <select name="theme" #theme="ngModel"  [(ngModel)]="editData.theme" ngModel>
+                        <option>Football</option>
+                        <option>Tennis</option>
+                        <option>Handball</option>
+                        <option>NBA</option>
+                        <option>Basketball</option>
+                        <option>F1</option>
+                    </select>
+                </div>
+                <!-- <div class="form-group">
+                    <label>Image : </label>
+                    <input type="file" ref="file" multiple accept="image/*" (change)="fileUpload($event)" name="image" #image="ngModel" ngModel/>
+                </div>
+                <hr />
+                <img id="output" width="500" src={{files}} />
+                <hr /> -->
+                <div class="my-3">
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="submit" class="btn btn-primary">Save changes</button>
+                  </div>
+                  <div class="alert alert-success " *ngIf="msg">{{msg}}</div>
+                </div>
+            </form>
+        </div>
+        <!-- end edit form -->
+
+
+
+
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  
   
 
 
