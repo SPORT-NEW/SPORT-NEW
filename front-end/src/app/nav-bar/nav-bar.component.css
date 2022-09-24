@@ -185,3 +185,12 @@ img{
 {
     background: black;
 }
+#tiger1{
+    transform: scaleX(-1);
+    margin-top: -24%;
+    margin-left: 57%;
+}
+.ti{
+    margin-top: -5%;
+    margin-left: -2%;
+}

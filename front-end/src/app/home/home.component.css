@@ -12,6 +12,7 @@
   padding: .25em .5em;
   box-shadow: rgb(168, 168, 161) -2px -2px 0px 2px, rgb(168, 150, 150) 0px 0px 0px 4px, rgba(0, 0, 0, 0.05) 0px 0px 2px 7px;
   margin-top:  50px;
+  margin-left: 22%;
 }
 img {
   width: 700px;
@@ -48,7 +49,7 @@ img {
   padding: 5px 10px;
   transition: box-shadow 100ms ease-in, border 100ms ease-in, background-color 100ms ease-in;
   border: 2px solid #dee1e2;
-  color: rgb(14, 14, 16);
+  color: #083a74fa;
   background: #dee1e2;
   display: block;
   height: 36px;
