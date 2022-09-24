@@ -12,6 +12,7 @@ import { DataService } from './_services/data.service';
 import { SearchComponent } from './search/search.component';
 import { AddnewsComponent } from './addnews/addnews.component';
 import { FormsModule } from '@angular/forms';
+import { Ng2SearchPipeModule } from 'ng2-search-filter';
 import { SignUpComponent } from './sign-up/sign-up.component';
 
 @NgModule({
@@ -29,7 +30,8 @@ import { SignUpComponent } from './sign-up/sign-up.component';
     BrowserModule,
     HttpClientModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    Ng2SearchPipeModule
   ],
   providers: [
     DataService
