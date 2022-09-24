@@ -1,9 +1,17 @@
 .add{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100vw;
-    height: 80vh;
+    background: #e0dfdfec;
+    border-radius: .75em;
+   /* 
+  
+   vertical-align: baseline;
+    */ 
+   margin: auto;
+   width: 50%;
+   border: 3px solid rgba(85, 83, 83, 0.025);
+   padding: 10px;
+   padding: .25em .5em;
+   box-shadow: rgb(162, 162, 150) -2px -2px 0px 2px, rgb(168, 150, 150) 0px 0px 0px 4px, rgba(0, 0, 0, 0.05) 0px 0px 2px 7px;
+   margin-top:  50px;
 }
 
 input[type=text], select {
@@ -45,4 +53,25 @@ cursor: pointer;
 }
 input[type=submit]:hover {
 background-color: #45a049; /* Green */
+}
+.btn{
+    display: inline-block;
+    outline: none;
+    cursor: pointer;
+    font-size: 14px;
+    line-height: 1;
+    border-radius: 500px;
+    transition-property: background-color,border-color,color,box-shadow,filter;
+    transition-duration: .3s;
+    border: 1px solid transparent;
+    letter-spacing: 2px;
+    min-width: 160px;
+    text-transform: uppercase;
+    white-space: normal;
+    font-weight: 700;
+    text-align: center;
+    padding: 16px 14px 18px;
+    color: #fff;
+    background-color: #1e4ab8;
+    height: 48px;
 }
