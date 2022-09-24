@@ -1,9 +1,9 @@
 const cloudinary = require('cloudinary')
 
 cloudinary.config({
-    cloud_name:process.env.CLOUDINARY_CLOUD_NAME,
-    api_key: process.env.CLOUDINARY_API_KEY,
-    api_secret:process.env.CLOUDINARY_API_SECRET
+    cloud_name:trust-us,
+    api_key:636717224412268,
+    api_secret:AvwHCkHR34Xv4GqjKBw2oGgnNME
 })
 uploadToCloudinary = (path, folder) => {
     return cloudinary.v2.uploader.upload(path, {
