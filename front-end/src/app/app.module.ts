@@ -13,6 +13,7 @@ import { AddnewsComponent } from './addnews/addnews.component';
 import { FormsModule } from '@angular/forms';
 import { Ng2SearchPipeModule } from 'ng2-search-filter';
 import { SignUpComponent } from './sign-up/sign-up.component';
+import { AsUserComponent } from './as-user/as-user.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { SignUpComponent } from './sign-up/sign-up.component';
     AboutComponent,
     LoginComponent,
     SignUpComponent,
-    AddnewsComponent
+    AddnewsComponent,
+    AsUserComponent
   ],
   imports: [
     BrowserModule,

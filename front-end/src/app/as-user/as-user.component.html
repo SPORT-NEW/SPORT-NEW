@@ -1,0 +1,13 @@
+<div>
+    <div class="searchBox">
+        <input class="searchInput" type="text" name="search" [(ngModel)]="searchText" autocomplete="off" placeholder="  Start searching ">
+      </div>
+    
+    <div class="box" *ngFor=" let i of posts | filter:searchText;index as a">
+      <h3 class="theme">{{i.theme}}</h3> <br>
+      <img id="pictureofNews" src={{i.image}} /><br> 
+      <h3>{{i.title}}</h3><br>
+      <h6>{{i.content}}</h6><br> 
+  
+    
+    </div>

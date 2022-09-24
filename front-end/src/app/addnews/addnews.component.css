@@ -137,3 +137,8 @@ input{
   #imageName{
     color:green;
   }
+  .add-title{
+    /* -ms-transform: translateY(-50%); */
+    /* transform: translateY(-50%); */
+    left: 43%;
+  }
