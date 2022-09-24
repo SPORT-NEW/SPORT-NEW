@@ -24,8 +24,8 @@ export class HomeComponent implements OnInit {
 
   }
   delete(id:any,a:number ){
-  this.news.deletenews(id).subscribe(response=>{
-    console.log(response)
+  this.news.deletenews(id).subscribe(res=>{
+    console.log(res)
     this.posts.splice(a,1)
   })
   }
