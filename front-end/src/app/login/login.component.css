@@ -1,18 +1,57 @@
 .login {
     background: #e0dfdfec;
     border-radius: .75em;
-   
-   margin: auto;
-   width: 20%;
-   border: 3px solid rgba(86, 85, 88, 0.025);
-   padding: 10px;
-   padding: .25em .5em;
-   box-shadow: rgb(162, 162, 150) -2px -2px 0px 2px, rgb(168, 150, 150) 0px 0px 0px 4px, rgba(0, 0, 0, 0.05) 0px 0px 2px 7px;
-   margin-top:  130px;
-   
+    
+    margin: auto;
+    width: 20%;
+    border: 3px solid rgba(86, 85, 88, 0.025);
+    padding: 10px;
+    padding: .25em .5em;
+    box-shadow: rgb(162, 162, 150) -2px -2px 0px 2px, rgb(168, 150, 150) 0px 0px 0px 4px, rgba(0, 0, 0, 0.05) 0px 0px 2px 7px;
+    margin-top:  40px;
+    
 }
+.welcome{
+   margin-top: 15%;
+   margin-left: 40%;
 
-
+}
+.welcome ul
+{
+    list-style: none;
+    /* display: flex; */
+    flex-direction: row;
+    height: 50px;
+    width: 100px;
+    position: absolute;
+    top: 38%;
+    display: grid;
+    place-items: center;
+    background-color: #083b74f7;
+    border-radius: 10px 20px;
+}
+.welcome ul li
+{
+    font-size: 20px;
+    margin: -25px;
+}
+.welcome ul li a
+{
+    text-decoration: none;
+    color: white;
+}
+.welcome ul li a:hover
+{
+    color: white;
+}
+.welcome ul  a
+{
+    color: white;
+}
+.welcome  :hover
+{
+    background: black;
+}
 .form {
    
 }
