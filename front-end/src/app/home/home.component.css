@@ -35,7 +35,7 @@ img {
   text-align: center;
   padding: 16px 14px 18px;
   color: #fff;
-  background: linear-gradient(to right, rgb(230, 30, 77) 0%, rgb(230, 30, 77) 50%, rgb(230, 30, 77) 100%);
+  background-color: #083b74f7;
   height: 48px;
 
 } */
@@ -60,13 +60,11 @@ img {
   text-align: center;
   padding: 16px 14px 18px;
   color: #fff;
-  background: linear-gradient(to right, rgb(51, 123, 54) 0%, rgb(51, 123, 54) 50%, rgb(51, 123, 54) 100%);
+  background-color: #296dbbf7;
   height: 48px;
 
   }
-  .theme {
-    
-  }
+ 
   .input-inset{
     font-size: 16px;
     line-height: 1.5;
@@ -88,14 +86,28 @@ margin-left: 39%;
     .box{
       margin-left: 23%;
     }
+    .btn-secondary{
+      background-color: #083b74f7;
+      top: 0px;
+      right: 0%;
+      height: 50px;
+      width: 120px;
+      border-radius: 10px 20px;
+      place-items: center;
+      display: grid;
+    }
+    .btn-primary{
+      background-color: #083b74f7;
+      top: 0px;
+      right: 0%;
+      height: 50px;
+      width: 120px;
+      border-radius: 10px 20px;
+      place-items: center;
+      display: grid;
+      
+    }
 
 
 
-
-
-
-    
-
- 
-  
 
