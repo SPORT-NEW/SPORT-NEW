@@ -1,14 +1,14 @@
 
-<div class="login">
-    <form class="form"  >
+<div  class="login">
+    <form #user="ngForm" (ngSubmit)="onSubmit(user)" class="form"  >
       <h1>Login</h1>
      
-          <input class="input1" type="text" placeholder="user" autocomplete="nope" id="user"><br>
+          <input class="input1" type="text" placeholder="user" autocomplete="nope" id="user" #username="ngModel" ngModel name="username"><br>
 
 
-          <input class="input1" type="password" placeholder="Password" id="pass"><br>
+          <input class="input1" type="password" placeholder="Password" id="pass" #password="ngModel" ngModel name="password"><br>
       
-          <button class="btn-log-in">Log in <i class="fa-solid fa-right-to-bracket fa-xl"></i></button>
+          <button type="submit" class="btn-log-in">Log in <i class="fa-solid fa-right-to-bracket fa-xl"></i></button>
       
     </form>
   </div>
