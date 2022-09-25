@@ -3,7 +3,7 @@
     border-radius: .75em;
    
    margin: auto;
-   width: 50%;
+   width: 30%;
    border: 3px solid rgba(86, 85, 88, 0.025);
    padding: 10px;
    padding: .25em .5em;
@@ -48,9 +48,7 @@ border: 1px solid rgb(2, 0, 0);
 border-radius: 4px;
 cursor: pointer;
 }
-.ngForm{
- 
-}
+
 .btn{
 
     display: inline-block;
@@ -78,7 +76,7 @@ cursor: pointer;
     border: 0;
     background: rgba(0, 0, 0, 0);
     appearance: none;
-    width: 100%;
+    width: 50%;
     position: relative;
     border-radius: 3px;
     padding: 9px 12px;
@@ -89,3 +87,44 @@ cursor: pointer;
     height: 40px;
     transition: all .2s ease;
 }
+.welcome{
+    margin-top: 15%;
+    margin-left: 40%;
+ 
+ }
+ .welcome ul
+ {
+     list-style: none;
+     /* display: flex; */
+     flex-direction: row;
+     height: 50px;
+     width: 100px;
+     position: absolute;
+     top: 65%;
+     display: grid;
+     place-items: center;
+     background-color: #083b74f7;
+     border-radius: 10px 20px;
+ }
+ .welcome ul li
+ {
+     font-size: 20px;
+     margin: -25px;
+ }
+ .welcome ul li a
+ {
+     text-decoration: none;
+     color: white;
+ }
+ .welcome ul li a:hover
+ {
+     color: white;
+ }
+ .welcome ul  a
+ {
+     color: white;
+ }
+ .welcome  :hover
+ {
+     background: black;
+ }
