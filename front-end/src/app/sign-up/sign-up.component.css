@@ -49,7 +49,7 @@ border-radius: 4px;
 cursor: pointer;
 }
 
-.btn{
+/* .btn{
 
     display: inline-block;
     outline: none;
@@ -70,7 +70,7 @@ cursor: pointer;
     color: #fff;
     background-color: #083b74f7;
     height: 48px;
-}
+} */
 .form-control{
     box-shadow: inset #e4e5e7 0 0 0 2px;
     border: 0;

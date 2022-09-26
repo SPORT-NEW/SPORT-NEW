@@ -16,7 +16,7 @@
 img {
   width: 700px;
 }
-.btn{
+/* .btn{
 
   display: inline-block;
   outline: none;
@@ -35,10 +35,12 @@ img {
   text-align: center;
   padding: 16px 14px 18px;
   color: #fff;
+
   background: rgb(9, 9, 87);
+
   height: 48px;
 
-}
+} */
 
 .btns{
   
@@ -60,12 +62,12 @@ img {
   text-align: center;
   padding: 16px 14px 18px;
   color: #fff;
+
   background: rgb(20, 91, 173);  height: 48px;
 
+
   }
-  .theme {
-    
-  }
+ 
   .input-inset{
     font-size: 16px;
     line-height: 1.5;
@@ -87,14 +89,28 @@ margin-left: 39%;
     .box{
       margin-left: 23%;
     }
+    .btn-secondary{
+      background-color: #083b74f7;
+      top: 0px;
+      right: 0%;
+      height: 50px;
+      width: 120px;
+      border-radius: 10px 20px;
+      place-items: center;
+      display: grid;
+    }
+    .btn-primary{
+      background-color: #083b74f7;
+      top: 0px;
+      right: 0%;
+      height: 50px;
+      width: 120px;
+      border-radius: 10px 20px;
+      place-items: center;
+      display: grid;
+      
+    }
 
 
 
-
-
-
-    
-
- 
-  
 

@@ -18,7 +18,7 @@ export class SignUpComponent implements OnInit {
   
     
     
-    this.userservice.signup(user.value).subscribe(  ()=>this.path.navigate(['/login'])
+    this.userservice.signup(user.value).subscribe(  ()=>this.path.navigate(['/'])
     );
   }
 }
