@@ -61,7 +61,7 @@
     transition: all .2s ease;
     
     }
-    /* .btn-log-in{
+    .btn-log-in{
         display: inline-block;
         outline: none;
         cursor: pointer;
@@ -82,7 +82,7 @@
         background-color: #083a74fa;
         height: 48px;
     }
-   
+  
     h1 span {
         color: rgb(0, 68, 255);
       }
@@ -96,5 +96,5 @@
         margin-left: 5%;
         }
 
-        */
+        
 
