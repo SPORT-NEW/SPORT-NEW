@@ -35,7 +35,7 @@ img {
   text-align: center;
   padding: 16px 14px 18px;
   color: #fff;
-  background: linear-gradient(to right, rgb(230, 30, 77) 0%, rgb(230, 30, 77) 50%, rgb(230, 30, 77) 100%);
+  background: rgb(9, 9, 87);
   height: 48px;
 
 }
@@ -60,8 +60,7 @@ img {
   text-align: center;
   padding: 16px 14px 18px;
   color: #fff;
-  background: linear-gradient(to right, rgb(51, 123, 54) 0%, rgb(51, 123, 54) 50%, rgb(51, 123, 54) 100%);
-  height: 48px;
+  background: rgb(20, 91, 173);  height: 48px;
 
   }
   .theme {
