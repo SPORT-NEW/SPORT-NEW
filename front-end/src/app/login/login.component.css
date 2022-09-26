@@ -1,3 +1,5 @@
+
+
 .login {
     background: #e0dfdfec;
     border-radius: .75em;
@@ -19,16 +21,7 @@
 .welcome ul
 {
     list-style: none;
-    /* display: flex; */
-    flex-direction: row;
-    height: 50px;
-    width: 100px;
-    position: absolute;
-    top: 38%;
-    display: grid;
-    place-items: center;
-    background-color: #083b74f7;
-    border-radius: 10px 20px;
+   
 }
 .welcome ul li
 {
@@ -38,20 +31,17 @@
 .welcome ul li a
 {
     text-decoration: none;
-    color: white;
+    color: black;
 }
 .welcome ul li a:hover
 {
-    color: white;
+    color: rgb(19, 3, 238);
 }
 .welcome ul  a
 {
     color: white;
 }
-.welcome  :hover
-{
-    background: black;
-}
+
 .form {
    
 }
@@ -95,5 +85,16 @@
         height: 48px;
     }
    
- */
+    h1 span {
+        color: rgb(0, 68, 255);
+      }
+      h1 {
+        color: #999999;
+        font-family: arial, sans-serif;
+        font-size:100px;
+        font-weight: bold;
+        margin-top: 0px;
+        margin-bottom: 1px;
+        margin-left: 5%;
+        }
 
