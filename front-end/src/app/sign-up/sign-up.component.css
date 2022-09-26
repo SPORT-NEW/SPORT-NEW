@@ -8,7 +8,7 @@
    padding: 10px;
    padding: .25em .5em;
    box-shadow: rgb(162, 162, 150) -2px -2px 0px 2px, rgb(168, 150, 150) 0px 0px 0px 4px, rgba(0, 0, 0, 0.05) 0px 0px 2px 7px;
-   margin-top:  120px;
+   margin-top:  40px;
 }
 
 input[type=text], select {
@@ -128,3 +128,15 @@ cursor: pointer;
  {
      background: black;
  }
+ h1 span {
+    color: rgb(0, 68, 255);
+  }
+  h1 {
+    color: #999999;
+    font-family: arial, sans-serif;
+    font-size:100px;
+    font-weight: bold;
+    margin-top: 0px;
+    margin-bottom: 1px;
+    margin-left: 5%;
+    }
